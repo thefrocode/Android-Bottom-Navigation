@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment"
+    >
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="the.frocode.bottomnavigation.FirstFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="the.frocode.bottomnavigation.SecondFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="the.frocode.bottomnavigation.ThirdFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_third" />
+
+</navigation>
